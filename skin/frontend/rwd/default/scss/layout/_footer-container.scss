@@ -1,0 +1,6 @@
+.footer-container {
+  background-color: #fff;
+  &:after {
+    @include clearfix;
+  }
+}
