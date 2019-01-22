@@ -4304,22 +4304,28 @@ a.skip-link {
 
 /* line 86, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/layout/_header-search.scss */
 #search {
-  width: 0;
-  opacity: 0;
+  width: 100%;
   height: 40px;
   padding-right: 40px;
   font-family: "Raleway", "Helvetica Neue", Verdana, Arial, sans-serif;
-  transition: width .2s, opacity .2s;
 }
 
-/* line 93, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/layout/_header-search.scss */
-#search_mini_form:hover #search,
-#search_mini_form:focus #search {
-  width: 100%;
-  opacity: 1;
+@media only screen and (min-width: 771px) {
+  /* line 95, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/layout/_header-search.scss */
+  #search {
+    width: 0;
+    opacity: 0;
+    transition: width .2s, opacity .2s;
+  }
+  /* line 99, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/layout/_header-search.scss */
+  #search_mini_form:hover #search,
+  #search_mini_form:focus #search {
+    width: 100%;
+    opacity: 1;
+  }
 }
 
-/* line 100, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/layout/_header-search.scss */
+/* line 107, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/layout/_header-search.scss */
 #search_mini_form .search-button {
   text-indent: -9999px;
   position: absolute;
@@ -4331,7 +4337,7 @@ a.skip-link {
   background: none;
 }
 
-/* line 111, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/layout/_header-search.scss */
+/* line 118, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/layout/_header-search.scss */
 #search_mini_form .search-button:before {
   content: '';
   position: absolute;
@@ -4344,12 +4350,12 @@ a.skip-link {
   background-position: 4px -146px;
 }
 
-/* line 124, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/layout/_header-search.scss */
+/* line 131, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/layout/_header-search.scss */
 #search_mini_form .search-button:hover:before {
   opacity: 0.8;
 }
 
-/* line 128, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/layout/_header-search.scss */
+/* line 135, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/layout/_header-search.scss */
 #search_mini_form .search-button:active:before {
   margin-top: -13px;
   margin-left: -13px;
