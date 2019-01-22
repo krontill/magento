@@ -65,12 +65,7 @@
 
     #header-search {
         display: block; // Force visibility
-        position: absolute;
-        top: 55px;
-        right: 0;
-        width: 25%;
-        height: 50px;
-        padding: 0;
+        padding: 4px 80px 0 0;
     }
 
 }
@@ -89,10 +84,17 @@
 }
 
 #search {
-    width: 100%;
+    width: 0;
+    opacity: 0;
     height: 40px;
     padding-right: 40px;
     font-family: $f-stack-special;
+    transition: width .2s, opacity .2s;
+    #search_mini_form:hover &,
+    #search_mini_form:focus & {
+        width: 100%;
+        opacity: 1;
+    }
 }
 
 #search_mini_form .search-button {
