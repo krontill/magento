@@ -66,11 +66,11 @@
 
         .product-name {
             display: none;
-            float: left;
         }
         .product-name .h1 {
-            float: left;
             margin-bottom: 5px;
+            color: $c-gray;
+            font-weight: 400;
         }
 
         .extra-info {
@@ -80,14 +80,7 @@
             width: 70%;
         }
 
-        .price-info {
-            float: right;
-            padding-left: $trim/2;
-            text-align: right;
-        }
-
-        .extra-info,
-        .price-info {
+        .extra-info {
             max-width: 70%;
             margin-bottom: $box-spacing;
         }
@@ -115,11 +108,17 @@
                 line-height: 1.2;
             }
 
-            .regular-price .price,
             .special-price .price,
             .full-product-price .price {
                 color: $c-action;
                 font-size: 24px;
+            }
+
+            .regular-price .price {
+                color: $c-red;
+                font-weight: 600;
+                position: relative;
+                top: 5px;
             }
 
             .special-price {
