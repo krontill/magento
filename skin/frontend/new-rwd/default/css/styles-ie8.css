@@ -5327,17 +5327,16 @@ p.product-name a:hover {
 .product-view .add-to-cart {
   padding-bottom: 3px;
   margin-bottom: 10px;
-  border-bottom: 1px solid #CCCCCC;
 }
 
-/* line 351, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 350, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .product-view .add-to-cart .qty-wrapper,
 .product-view .product-options-bottom .price-box,
 .product-view .add-to-cart-buttons {
   min-height: 40px;
 }
 
-/* line 357, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 356, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .product-view .product-options-bottom .price-box,
 .product-view .add-to-cart .qty-wrapper,
 .product-view .add-to-cart-buttons .button,
@@ -5345,57 +5344,61 @@ p.product-name a:hover {
   margin-bottom: 10px;
 }
 
-/* line 364, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 363, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .product-view .add-to-cart .qty-wrapper,
 .product-view .add-to-cart .qty-wrapper label {
   margin-right: 7px;
   float: left;
 }
 
-/* line 370, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 369, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .product-view .add-to-cart .qty-wrapper label {
   line-height: 40px;
 }
 
-/* line 374, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 373, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .product-view .add-to-cart .qty-wrapper .qty {
   float: left;
   height: 40px;
 }
 
-/* line 379, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
-.product-view .add-to-cart-buttons {
-  float: left;
-  margin-right: 10px;
-  max-width: 100%;
+/* line 378, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+.product-view .personalization-button {
+  max-width: 300px;
 }
 
-/* line 384, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 382, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+.product-view .add-to-cart-buttons {
+  margin-right: 10px;
+  max-width: 300px;
+}
+
+/* line 386, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .product-view .add-to-cart-buttons .paypal-logo {
   clear: left;
   text-align: center;
 }
 
-/* line 388, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 390, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .product-view .add-to-cart-buttons .paypal-logo .paypal-button {
   margin: 0 auto;
   display: block;
   width: 170px;
 }
 
-/* line 394, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 396, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .product-view .add-to-cart-buttons .paypal-logo .bml_button {
   display: block;
   width: 174px;
   margin: 0 auto;
 }
 
-/* line 399, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 401, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .product-view .add-to-cart-buttons .paypal-logo .bml_button a {
   text-align: center;
 }
 
-/* line 404, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 406, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .product-view .add-to-cart-buttons .paypal-logo .paypal-or {
   display: block;
   margin-bottom: 10px;
@@ -5405,7 +5408,8 @@ p.product-name a:hover {
   text-align: center;
 }
 
-/* line 415, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 417, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+.product-view .personalization-button .button,
 .product-view .add-to-cart-buttons .button {
   min-height: 40px;
   line-height: 40px;
@@ -5417,19 +5421,24 @@ p.product-name a:hover {
   white-space: normal;
 }
 
-/* line 426, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 429, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+.product-view .personalization-button .button {
+  background: #333333;
+}
+
+/* line 433, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .product-view .alert-price,
 .product-view .alert-stock {
   clear: both;
 }
 
 /* This is the "or" that separates the "Add to Cart" and "Add to X" links */
-/* line 453, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 460, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .add-to-box .or {
   display: none;
 }
 
-/* line 457, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 464, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .product-view .add-to-links {
   clear: both;
   margin-top: 0px;
@@ -5437,54 +5446,54 @@ p.product-name a:hover {
   float: left;
 }
 
-/* line 463, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 470, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .product-view .add-to-links:after {
   content: '';
   display: table;
   clear: both;
 }
 
-/* line 467, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 474, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .product-view .add-to-links li {
   float: left;
 }
 
-/* line 471, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 478, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .product-view .add-to-links a {
   padding: 2px 7px 2px 0px;
   margin-left: 7px;
   border-right: 1px solid #CCCCCC;
 }
 
-/* line 477, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 484, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .product-view .add-to-links li:first-child a {
   margin-left: 0px;
 }
 
-/* line 481, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 488, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .product-view .add-to-links li:last-child a {
   border-right: 0px;
 }
 
-/* line 486, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 493, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .product-view .sharing-links {
   float: left;
 }
 
-/* line 489, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 496, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .product-view .sharing-links:after {
   content: '';
   display: table;
   clear: both;
 }
 
-/* line 493, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 500, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .product-view .sharing-links li {
   float: left;
   padding: 0px 7px 7px;
 }
 
-/* line 498, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 505, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .product-view .sharing-links a {
   text-indent: -9999px;
   display: block;
@@ -5492,47 +5501,47 @@ p.product-name a:hover {
   height: 26px;
 }
 
-/* line 505, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 512, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .product-view .sharing-links a:hover {
   opacity: 0.8;
 }
 
-/* line 508, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 515, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .product-view .sharing-links a.link-wishlist {
   background-position: 0px -225px;
 }
 
-/* line 511, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 518, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .product-view .sharing-links a.link-compare {
   background-position: 0px -250px;
 }
 
-/* line 514, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 521, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .product-view .sharing-links a.link-email-friend {
   background-position: 0px -322px;
 }
 
-/* line 517, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 524, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .product-view .sharing-links a.link-facebook {
   background-position: 0px -425px;
 }
 
-/* line 520, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 527, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .product-view .sharing-links a.link-twitter {
   background-position: 0px -372px;
 }
 
-/* line 535, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 542, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .product-collateral {
   clear: both;
 }
 
-/* line 541, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 548, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .collateral-tabs dd h2 {
   display: none;
 }
 
-/* line 547, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 554, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .box-collateral {
   clear: both;
 }
@@ -5625,30 +5634,30 @@ p.product-name a:hover {
   display: block;
 }
 
-/* line 582, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 589, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .product-view .product-shop .product-name {
   display: block;
 }
 
-/* line 585, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 592, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .product-img-box .product-name {
   display: none;
 }
 
-/* line 602, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 609, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .product-view .ratings .rating-links {
   clear: left;
   float: left;
   margin-top: 0;
 }
 
-/* line 609, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 616, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 #product-attribute-specs-table {
   max-width: 50em;
   border: 1px solid #C0C0C0;
 }
 
-/* line 613, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 620, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 #product-attribute-specs-table th {
   border-right: 1px solid #C0C0C0;
   border-bottom: 1px solid #C0C0C0;
@@ -5657,7 +5666,7 @@ p.product-name a:hover {
 /* -------------------------------------------- *
  * Catalog - Grouped Product List
  */
-/* line 623, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 630, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .grouped-items-table-wrapper {
   border: solid 1px #C0C0C0;
   width: 100%;
@@ -5665,39 +5674,39 @@ p.product-name a:hover {
   margin-bottom: 15px;
 }
 
-/* line 629, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 636, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .grouped-items-table-wrapper tbody tr:last-child td {
   border-bottom: none;
 }
 
-/* line 638, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 645, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .grouped-items-table .name-wrapper {
   color: #3399CC;
   font-family: "Raleway", "Helvetica Neue", Verdana, Arial, sans-serif;
 }
 
-/* line 643, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 650, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .grouped-items-table .qty-wrapper {
   padding-top: 7px;
 }
 
-/* line 647, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 654, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .grouped-items-table .qty-label {
   margin-left: 7px;
 }
 
-/* line 652, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 659, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .grouped-items-table td {
   padding: 4px;
 }
 
-/* line 655, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 662, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .grouped-items-table td:last-child {
   width: 30%;
   text-align: left;
 }
 
-/* line 660, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 667, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .grouped-items-table .price-box {
   text-align: right;
 }
@@ -5705,88 +5714,79 @@ p.product-name a:hover {
 /* -------------------------------------------- *
  * Catalog - Product Options
  */
-/* line 669, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 676, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .product-options {
   width: 100%;
   margin: 10px 0 0;
-  padding: 10px 15px 15px;
-  border: 1px solid #CCCCCC;
+  padding: 10px 15px 15px 0;
   clear: both;
   position: relative;
 }
 
-/* line 678, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
-.product-options p.required {
-  position: absolute;
-  top: 6px;
-  right: 15px;
-  text-align: right;
-}
-
-/* line 691, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 692, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .product-options dt {
   margin: 10px 0 3px;
   font-weight: normal;
 }
 
-/* line 696, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 697, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .product-options dt:first-child {
   margin-top: 0;
 }
 
-/* line 700, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 701, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .product-options dd .qty-holder {
   display: block;
   padding: 10px 0 0 0;
 }
 
-/* line 705, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 706, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .product-options dd .qty-holder .qty {
   width: 3em;
 }
 
-/* line 709, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 710, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .product-options dd .qty-holder label {
   vertical-align: middle;
 }
 
-/* line 713, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 714, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .product-options dd .qty-disabled {
   background: none;
   border: 0;
   padding: 0 2px;
 }
 
-/* line 719, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 720, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .product-options dd {
   padding: 0 0 10px 0;
   margin: 0 0 5px;
   border-bottom: 1px solid #EDEDED;
 }
 
-/* line 725, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 726, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .product-options dl.last dd.last {
   border-bottom: 0;
   padding-bottom: 5px;
   margin-bottom: 0;
 }
 
-/* line 731, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 732, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .product-options dd .input-text {
   width: 98%;
 }
 
-/* line 735, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 736, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .product-options dd .input-box {
   padding-top: 0;
 }
 
-/* line 739, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 740, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .product-options dd input.datetime-picker {
   width: 150px;
 }
 
-/* line 743, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 744, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .product-options dd .time-picker {
   display: -moz-inline-stack;
   display: inline-block;
@@ -5798,74 +5798,72 @@ p.product-name a:hover {
   vertical-align: middle;
 }
 
-/* line 749, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 750, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .product-options dd textarea {
   width: 98%;
   height: 8em;
 }
 
-/* line 754, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 755, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .product-options dd select {
   width: 330px;
   max-width: 100%;
 }
 
-/* line 759, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 760, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .product-options ul.options-list {
   margin-right: 5px;
 }
 
-/* line 763, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 764, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .product-options ul.options-list li {
   line-height: 1.5;
   margin-bottom: 7px;
 }
 
-/* line 768, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 769, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .product-options ul.options-list li:last-child {
   margin-bottom: 0;
 }
 
-/* line 772, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 773, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .product-options ul.options-list .radio,
 .product-options ul.options-list .checkbox {
   float: left;
   margin-top: 5px;
 }
 
-/* line 778, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 779, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .product-options ul.options-list .label {
   display: block;
 }
 
-/* line 782, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 783, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .product-options ul.options-list label {
   font-weight: normal;
 }
 
-/* line 786, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 787, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .product-options p.note {
   margin: 0;
   font-size: 11px;
 }
 
-/* line 791, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 792, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .product-options-bottom {
-  background-color: #F4F4F4;
-  padding: 15px 20px;
-  border: 1px solid #CCCCCC;
+  padding: 15px 20px 15px 0;
   border-top: 0;
   margin-bottom: 10px;
 }
 
-/* line 799, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 798, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .product-options-bottom:after {
   content: '';
   display: table;
   clear: both;
 }
 
-/* line 803, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 802, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .product-options-bottom .product-pricing,
 .product-options-bottom .tier-prices {
   float: right;
@@ -5882,13 +5880,13 @@ p.product-name a:hover {
   border-bottom: 1px solid #CCCCCC;
 }
 
-/* line 822, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 821, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .product-options-bottom .tier-prices li {
   background: 0;
   padding: 2px 0;
 }
 
-/* line 827, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 826, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .product-options-bottom .tier-prices .price,
 .product-options-bottom .tier-prices .benefit {
   color: #636363;
@@ -5896,7 +5894,7 @@ p.product-name a:hover {
 
 /* "display: none" should be removed if products on site have a long list of product options and those product options */
 /*  affect the price so that the customer can see the updated price close to the "Add to Cart" button */
-/* line 834, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 833, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .product-options-bottom .price-box {
   display: none;
   float: right;
@@ -5904,7 +5902,7 @@ p.product-name a:hover {
   padding: 0;
 }
 
-/* line 851, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 850, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .product-options-bottom .price-tax {
   float: left;
 }
@@ -5913,17 +5911,17 @@ p.product-name a:hover {
  * Related Products
  */
 /* Block: Related */
-/* line 863, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 862, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .block-related li {
   margin-bottom: 7px;
 }
 
-/* line 867, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 866, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .block-related .block-title {
   border-bottom: none;
 }
 
-/* line 870, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 869, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .block-related .block-title h2 {
   margin: 0;
   margin-bottom: 0.5em;
@@ -5938,39 +5936,39 @@ p.product-name a:hover {
   margin-bottom: 0;
 }
 
-/* line 876, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 875, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .block-related .block-subtitle {
   margin-bottom: 7px;
 }
 
-/* line 880, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 879, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .block-related .product {
   margin-left: 20px;
   position: relative;
 }
 
-/* line 884, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 883, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .block-related .checkbox {
   float: left;
   margin-top: 36px;
 }
 
-/* line 889, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 888, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .block-related .product-details {
   margin-left: 90px;
 }
 
-/* line 893, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 892, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .block-related .product-name {
   margin-bottom: 3px;
 }
 
-/* line 897, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 896, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .block-related .product-details .price-box {
   margin: 2px 0 3px;
 }
 
-/* line 900, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 899, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .block-related .product-details .price-box a,
 .block-related .product-details .price-box p,
 .block-related .product-details .price-box span {
@@ -5978,7 +5976,7 @@ p.product-name a:hover {
   margin-left: 3px;
 }
 
-/* line 906, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 905, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .block-related .product-details .price-box a:first-child,
 .block-related .product-details .price-box p:first-child,
 .block-related .product-details .price-box span:first-child {
@@ -5988,14 +5986,14 @@ p.product-name a:hover {
   padding-left: 5px;
 }
 
-/* line 913, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 912, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .block-related .product-details .price-box:after {
   content: '';
   display: table;
   clear: both;
 }
 
-/* line 917, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 916, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .block-related .link-wishlist {
   display: none;
 }
@@ -6003,12 +6001,12 @@ p.product-name a:hover {
 /* -------------------------------------------- *
  * Upsell Products
  */
-/* line 926, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 925, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .box-up-sell {
   margin-top: 20px;
 }
 
-/* line 929, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
+/* line 928, /opt/lampp/htdocs/magento/skin/frontend/new-rwd/default/scss/module/_catalog-product.scss */
 .box-up-sell .ratings {
   display: none;
 }

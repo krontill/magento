@@ -344,7 +344,6 @@
     .add-to-cart {
         padding-bottom: 3px;
         margin-bottom: 10px;
-        border-bottom: 1px solid $c-module-border;
     }
 
     /* Set a min-height so that the floated elements break appropriately */
@@ -376,10 +375,13 @@
         height: 40px;
     }
 
+    .personalization-button {
+        max-width: 300px;
+    }
+
     .add-to-cart-buttons {
-        float: left;
         margin-right: 10px;
-        max-width: 100%; // Constrain width in Firefox
+        max-width: 300px; // Constrain width in Firefox
 
         .paypal-logo {
             clear: left;
@@ -412,6 +414,7 @@
         }
     }
 
+    .personalization-button .button,
     .add-to-cart-buttons .button {
         min-height: 40px;
         line-height: 40px;
@@ -421,6 +424,10 @@
         min-width: 160px;
         width: 100%;
         white-space: normal;
+    }
+
+    .personalization-button .button {
+        background: $c-gray;
     }
 
     .alert-price,
@@ -669,18 +676,12 @@
 .product-options {
     width: 100%;
     margin: 10px 0 0;
-    padding: 10px 15px 15px;
-    border: 1px solid $c-fieldset-border;
+    padding: 10px 15px 15px 0;
     clear: both;
     position: relative;
 }
 
-.product-options p.required {
-    position: absolute;
-    top: 6px;
-    right: 15px;
-    text-align: right;
-}
+.product-options p.required {}
 
 @include bp(max-width, $bp-large) {
     .product-view .product-options .required {
@@ -789,9 +790,7 @@
 }
 
 .product-options-bottom {
-    background-color: $c-module-background;
-    padding: 15px 20px;
-    border: 1px solid $c-fieldset-border;
+    padding: 15px 20px 15px 0;
     border-top: 0;
     margin-bottom: $box-spacing;
 }
