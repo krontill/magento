@@ -30,7 +30,7 @@
 .page-header {
     font-family: $f-stack-special;
     padding-bottom: 20px;
-    background: #ffffff;
+    background: $c-white;
 }
 
 /* ============================================ *
@@ -63,7 +63,7 @@
     float: left;
     width: 20%;
     height: 44px;
-    background: #FFFFFF;
+    background: $c-white;
     color: $c-text;
     line-height: 42px;
     text-align: center;
@@ -82,7 +82,7 @@ a.skip-link {
 @include bp(max-width, $bp-medium) {
 
     .skip-link {
-        border-right: 1px solid #EDEDED;
+        border-right: 1px solid $c-fieldset-border-light;
     }
 
     .skip-link:last-child {
@@ -107,7 +107,7 @@ a.skip-link {
 @include bp(max-width, $bp-medium) {
 
     .skip-link.skip-active {
-        background: #EDEDED;
+        background: $c-fieldset-border-light;
         color: inherit;
     }
 

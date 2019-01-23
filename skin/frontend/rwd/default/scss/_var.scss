@@ -86,6 +86,7 @@ $max-std-formatted-width: 50em;
 // Usually not used directly in Sass partials.
 // Only used to define context-based color vars in this file.
 
+$c-white: #ffffff;
 $c-blue: #3399CC;
 $c-green: #11B400;
 $c-pink: #D85378;
@@ -94,6 +95,7 @@ $c-red: #CF5050;
 $c-yellow: #FFDD15;
 $c-black: #000000;
 $c-gray: #333333;
+$c-light-gray: #636363;
 
 // =============================================
 // Base Colors
@@ -101,7 +103,7 @@ $c-gray: #333333;
 
 // Text
 
-$c-text: #636363;
+$c-text: $c-light-gray;
 $c-text-gray: #A0A0A0;
 $c-text-white: #E6E6E6;
 // Primary font color for headings and other non-link text

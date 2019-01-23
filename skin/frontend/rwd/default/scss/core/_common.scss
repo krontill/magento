@@ -157,7 +157,6 @@ h6, .h6 { @include h6; }
     position: relative;
     padding: 10px 0 0;
     margin-bottom: 5px;
-    border-top: 1px solid $c-module-border;
 
     h2,
     h3,
@@ -720,12 +719,13 @@ a.button:hover {
     line-height: 24px;
 }
 
-/* -------------------------------------------- *
+/* -------------------------------.block-title------------- *
  * Container
  */
 
 .page {
     background: #efefef;
+    overflow: hidden;
 }
 
 .main-container {

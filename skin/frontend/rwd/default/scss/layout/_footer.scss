@@ -99,20 +99,9 @@
         }
     }
 
-    .block-subscribe {
-        float: right;
-        width: 320px;
-        margin-bottom: $trim;
-    }
-
-    .links,
-    .block-subscribe {
+    .links {
         text-transform: uppercase;
         font-size: $f-size-xs;
-    }
-
-    .form-subscribe-header {
-        display: none;
     }
 
     /* -------------------------------------------- *
@@ -153,38 +142,6 @@
     @include footer-social-icon(rss, 99);
 
     // ---------------------------------------------
-
-    .block-subscribe .input-box {
-        float: left;
-        width: percentage(210px/320px);
-        padding-top: 0;
-    }
-
-    .block-subscribe .input-text {
-        width: 100%;
-        border-right: 0;
-        @include border-radius(0);
-    }
-
-    .block-subscribe .block-content {
-        padding-top: 7px;
-
-        &:after {
-            @include clearfix;
-        }
-    }
-
-    .block-subscribe .actions {
-        float: left;
-        width: percentage(110px/320px);
-        margin: 0;
-    }
-
-    .block-subscribe .actions .button {
-        height: 30px;
-        line-height: 17px;
-        float: left;
-    }
 
     .bugs {
         clear: both;

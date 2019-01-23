@@ -741,10 +741,9 @@ h6, .h6 {
   position: relative;
   padding: 10px 0 0;
   margin-bottom: 5px;
-  border-top: 1px solid #CCCCCC;
 }
 
-/* line 162, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
+/* line 161, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
 .block-title h2,
 .block-title h3,
 .block-title strong {
@@ -764,68 +763,68 @@ h6, .h6 {
   font-weight: 600;
 }
 
-/* line 171, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
+/* line 170, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
 .block-title small {
   font-size: 100%;
   font-weight: normal;
   color: #A0A0A0;
 }
 
-/* line 179, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
+/* line 178, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
 body:not(.customer-account) .block:first-child .block-title {
   border-top: none;
   padding-top: 0;
 }
 
-/* line 184, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
+/* line 183, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
 .block-subtitle {
   font-weight: bold;
   margin-bottom: 7px;
 }
 
-/* line 189, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
+/* line 188, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
 .block-content {
   margin-top: 5px;
 }
 
-/* line 193, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
+/* line 192, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
 .block-content.unpad {
   padding: 0;
 }
 
-/* line 197, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
+/* line 196, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
 .block-content li.item {
   margin: 0 0 10px 9px;
 }
 
-/* line 201, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
+/* line 200, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
 .block-content li.item:last-child {
   margin-bottom: 0;
 }
 
-/* line 205, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
+/* line 204, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
 .block .actions {
   margin: 10px 0 0;
 }
 
-/* line 208, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
+/* line 207, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
 .block .actions:after {
   content: '';
   display: table;
   clear: both;
 }
 
-/* line 212, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
+/* line 211, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
 .block .actions a {
   float: left;
 }
 
-/* line 215, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
+/* line 214, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
 .block .actions .button {
   float: right;
 }
 
-/* line 223, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
+/* line 222, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
 .col-left .block .actions .button ~ a,
 .col-right .block .actions .button ~ a {
   line-height: 33px;
@@ -833,11 +832,11 @@ body:not(.customer-account) .block:first-child .block-title {
 }
 
 @media only screen and (max-width: 770px) {
-  /* line 233, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
+  /* line 232, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
   .sidebar .block:not(.block-layered-nav) {
     margin-bottom: 0;
   }
-  /* line 236, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
+  /* line 235, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
   .sidebar .block:not(.block-layered-nav) .block-title {
     padding: 0;
     margin-top: 0;
@@ -845,7 +844,7 @@ body:not(.customer-account) .block:first-child .block-title {
     border-top: none;
     margin-bottom: 0;
   }
-  /* line 243, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
+  /* line 242, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
   .sidebar .block:not(.block-layered-nav) .block-title > strong {
     margin: 0;
     margin-bottom: 10px;
@@ -894,7 +893,7 @@ body:not(.customer-account) .block:first-child .block-title {
   .sidebar .block:not(.block-layered-nav) .block-title > strong:hover {
     background-color: #ededed;
   }
-  /* line 252, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
+  /* line 251, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
   .sidebar .block:not(.block-layered-nav) .block-title.active > strong {
     margin: 0;
     margin-bottom: 10px;
@@ -939,7 +938,7 @@ body:not(.customer-account) .block:first-child .block-title {
   .sidebar .block:not(.block-layered-nav) .block-title.active > strong:hover {
     background-color: #ededed;
   }
-  /* line 258, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
+  /* line 257, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
   .sidebar .block:not(.block-layered-nav) .block-content {
     padding: 10px;
     margin-top: 0;
@@ -947,7 +946,7 @@ body:not(.customer-account) .block:first-child .block-title {
     border-style: solid;
     border-color: #CCCCCC;
   }
-  /* line 268, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
+  /* line 267, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
   .sidebar .block:last-of-type {
     border-bottom: 1px solid #CCCCCC;
   }
@@ -956,14 +955,14 @@ body:not(.customer-account) .block:first-child .block-title {
 /* -------------------------------------------- *
  * Secondary Navigation
  */
-/* line 280, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
+/* line 279, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
 .block-account .block-title,
 .block-cms-menu .block-title {
   padding-top: 0;
   border-top: none;
 }
 
-/* line 285, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
+/* line 284, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
 .block-account li,
 .block-cms-menu li {
   text-transform: uppercase;
@@ -971,20 +970,20 @@ body:not(.customer-account) .block:first-child .block-title {
   margin: 7px 0;
 }
 
-/* line 290, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
+/* line 289, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
 .block-account li strong,
 .block-cms-menu li strong {
   font-weight: 400;
   color: #3399CC;
 }
 
-/* line 295, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
+/* line 294, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
 .block-account li a,
 .block-cms-menu li a {
   color: #636363;
 }
 
-/* line 298, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
+/* line 297, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
 .block-account li a:hover,
 .block-cms-menu li a:hover {
   color: #3399CC;
@@ -994,7 +993,7 @@ body:not(.customer-account) .block:first-child .block-title {
  * Buttons
  * ============================================ */
 /* Secondary Buttons */
-/* line 310, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
+/* line 309, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
 .cart .buttons-set .button,
 .cart-table .button,
 .sidebar .actions .button,
@@ -1004,7 +1003,7 @@ body:not(.customer-account) .block:first-child .block-title {
   padding: 7px 15px;
 }
 
-/* line 318, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
+/* line 317, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
 .cart .buttons-set .button:hover,
 .cart-table .button:hover,
 .sidebar .actions .button:hover,
@@ -1013,7 +1012,7 @@ body:not(.customer-account) .block:first-child .block-title {
   cursor: pointer;
 }
 
-/* line 323, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
+/* line 322, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
 .cart .buttons-set .button:active,
 .cart-table .button:active,
 .sidebar .actions .button:active,
@@ -1022,7 +1021,7 @@ body:not(.customer-account) .block:first-child .block-title {
   color: #636363;
 }
 
-/* line 328, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
+/* line 327, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
 .cart .buttons-set .button:focus,
 .cart-table .button:focus,
 .sidebar .actions .button:focus,
@@ -1032,13 +1031,13 @@ body:not(.customer-account) .block:first-child .block-title {
   outline: none;
 }
 
-/* line 335, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
+/* line 334, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
 .sidebar .actions button.button {
   white-space: normal;
 }
 
 /* Primary Buttons */
-/* line 341, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
+/* line 340, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
 .button,
 .cart-table .product-cart-actions .button,
 #co-shipping-method-form .buttons-set .button,
@@ -1058,7 +1057,7 @@ body:not(.customer-account) .block:first-child .block-title {
   white-space: nowrap;
 }
 
-/* line 359, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
+/* line 358, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
 .button:hover,
 .cart-table .product-cart-actions .button:hover,
 #co-shipping-method-form .buttons-set .button:hover,
@@ -1067,7 +1066,7 @@ body:not(.customer-account) .block:first-child .block-title {
   cursor: pointer;
 }
 
-/* line 363, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
+/* line 362, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
 .button:active,
 .cart-table .product-cart-actions .button:active,
 #co-shipping-method-form .buttons-set .button:active,
@@ -1076,7 +1075,7 @@ body:not(.customer-account) .block:first-child .block-title {
   color: #FFFFFF;
 }
 
-/* line 367, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
+/* line 366, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
 .button:focus,
 .cart-table .product-cart-actions .button:focus,
 #co-shipping-method-form .buttons-set .button:focus,
@@ -1086,18 +1085,18 @@ body:not(.customer-account) .block:first-child .block-title {
   color: #FFFFFF;
 }
 
-/* line 374, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
+/* line 373, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
 a.button {
   text-decoration: none;
 }
 
-/* line 378, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
+/* line 377, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
 a.button:hover {
   color: #FFFFFF;
 }
 
 /* Disabled - class for anchor, state for form elements */
-/* line 383, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
+/* line 382, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
 .button.disabled,
 .button:disabled {
   background: #C8C8C8;
@@ -1106,12 +1105,12 @@ a.button:hover {
 }
 
 /* Adjacent buttons */
-/* line 391, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
+/* line 390, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
 .button + .button {
   margin-left: 5px;
 }
 
-/* line 405, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
+/* line 404, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
 .button2 {
   border: 0;
   padding: 0 5px;
@@ -1121,12 +1120,12 @@ a.button:hover {
   vertical-align: middle;
 }
 
-/* line 414, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
+/* line 413, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
 .button2:focus {
   outline: none;
 }
 
-/* line 418, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
+/* line 417, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
 .button2 span,
 .button2 span span {
   line-height: 30px;
@@ -1138,7 +1137,7 @@ a.button:hover {
   font-family: "Raleway", "Helvetica Neue", Verdana, Arial, sans-serif;
 }
 
-/* line 428, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
+/* line 427, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
 .button2 span:hover,
 .button2 span span:hover {
   text-decoration: none;
@@ -1146,7 +1145,7 @@ a.button:hover {
 }
 
 @media only screen and (max-width: 770px) {
-  /* line 436, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
+  /* line 435, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
   .col2-set .buttons-set .button,
   .col2-set .buttons-set .button2 {
     float: none;
@@ -1154,18 +1153,18 @@ a.button:hover {
     margin-left: 0;
     margin-right: 0;
   }
-  /* line 443, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
+  /* line 442, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
   .col2-set .buttons-set .back-link {
     display: none;
   }
-  /* line 446, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
+  /* line 445, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
   .col2-set .buttons-set .required {
     display: none;
   }
 }
 
 @media only screen and (max-width: 479px) {
-  /* line 454, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
+  /* line 453, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
   .buttons-set .button {
     float: none;
     width: 100%;
@@ -1173,11 +1172,11 @@ a.button:hover {
     margin-right: 0;
     margin-bottom: 7px;
   }
-  /* line 461, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
+  /* line 460, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
   .buttons-set .back-link {
     display: none;
   }
-  /* line 464, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
+  /* line 463, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
   .buttons-set .required {
     display: none;
   }
@@ -1186,43 +1185,43 @@ a.button:hover {
 /* -------------------------------------------- *
  * Paypal Button
  */
-/* line 474, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
+/* line 473, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
 .paypal-logo.paypal-after {
   float: left;
 }
 
-/* line 478, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
+/* line 477, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
 .paypal-after .paypal-or {
   float: left;
 }
 
-/* line 482, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
+/* line 481, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
 .paypal-or {
   line-height: 34px;
   margin: 0px 10px 5px;
 }
 
-/* line 487, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
+/* line 486, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
 .paypal-after .paypal-button {
   float: left;
 }
 
-/* line 491, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
+/* line 490, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
 .paypal-button {
   line-height: 0px;
 }
 
-/* line 495, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
+/* line 494, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
 .paypal-button img {
   display: inline;
 }
 
 @media only screen and (max-width: 740px) {
-  /* line 500, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
+  /* line 499, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
   .paypal-or {
     line-height: 20px;
   }
-  /* line 504, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
+  /* line 503, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
   .paypal-logo,
   .paypal-or,
   .paypal-button {
@@ -1238,7 +1237,7 @@ a.button:hover {
 /* -------------------------------------------- *
  * Button Sets
  */
-/* line 520, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
+/* line 519, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
 .buttons-set {
   clear: both;
   margin: 10px 0 0;
@@ -1247,7 +1246,7 @@ a.button:hover {
   text-align: right;
 }
 
-/* line 527, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
+/* line 526, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
 .buttons-set p.required {
   margin: 0;
   margin-left: 10px;
@@ -1255,28 +1254,28 @@ a.button:hover {
   float: right;
 }
 
-/* line 533, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
+/* line 532, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
 .buttons-set .back-link {
   float: left;
   margin: 0;
   line-height: 33px;
 }
 
-/* line 538, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
+/* line 537, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
 .buttons-set a:not(.button) {
   line-height: 20px;
   display: inline-block;
   padding: 5px;
 }
 
-/* line 543, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
+/* line 542, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
 .buttons-set button.button {
   float: right;
   margin-left: 5px;
   min-width: 140px;
 }
 
-/* line 549, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
+/* line 548, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
 .buttons-set:after {
   content: '';
   display: table;
@@ -1286,7 +1285,7 @@ a.button:hover {
 /* -------------------------------------------- *
  * Icons
  */
-/* line 558, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
+/* line 557, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
 .icon-sprite, .btn-remove2, .ratings .rating-box, .ratings .rating-box .rating, .sorter > .sort-by .sort-by-switcher, .sorter > .view-mode .grid,
 .sorter > .view-mode .list, .skip-nav .icon, .skip-search .icon, #search_mini_form .search-button:before, .skip-account .icon, .skip-cart .icon, .product-view .sharing-links a, .review-summary-table .rating-box .rating-number:after, .ratings-table .rating-box, .ratings-table .rating-box .rating {
   background-image: url(../images/icon_sprite.png);
@@ -1295,7 +1294,7 @@ a.button:hover {
 }
 
 @media (-webkit-min-device-pixel-ratio: 2), (min--moz-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 4 / 2), (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
-  /* line 565, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
+  /* line 564, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
   .icon-sprite, .btn-remove2, .ratings .rating-box, .ratings .rating-box .rating, .sorter > .sort-by .sort-by-switcher, .sorter > .view-mode .grid,
   .sorter > .view-mode .list, .skip-nav .icon, .skip-search .icon, #search_mini_form .search-button:before, .skip-account .icon, .skip-cart .icon, .product-view .sharing-links a, .review-summary-table .rating-box .rating-number:after, .ratings-table .rating-box, .ratings-table .rating-box .rating {
     background-image: url(../images/icon_sprite@2x.png);
@@ -1306,13 +1305,13 @@ a.button:hover {
 /* -------------------------------------------- *
  * Breadcrumbs
  */
-/* line 575, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
+/* line 574, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
 .breadcrumbs {
   overflow: hidden;
   margin: -15px 0 15px;
 }
 
-/* line 580, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
+/* line 579, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
 .breadcrumbs li {
   float: left;
   font-size: 12px;
@@ -1320,31 +1319,31 @@ a.button:hover {
   text-transform: uppercase;
 }
 
-/* line 587, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
+/* line 586, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
 .breadcrumbs a {
   float: left;
   color: #636363;
 }
 
-/* line 592, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
+/* line 591, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
 .breadcrumbs a:hover {
   color: #3399CC;
 }
 
-/* line 596, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
+/* line 595, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
 .breadcrumbs strong {
   color: #636363;
   font-weight: normal;
 }
 
-/* line 601, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
+/* line 600, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
 .breadcrumbs span {
   float: left;
   padding: 0 7px;
 }
 
 @media only screen and (max-width: 770px) {
-  /* line 608, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
+  /* line 607, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
   .breadcrumbs {
     display: none;
   }
@@ -1353,7 +1352,7 @@ a.button:hover {
 /* -------------------------------------------- *
  * Button - Remove / Previous
  */
-/* line 618, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
+/* line 617, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
 .btn-remove,
 .btn-previous {
   display: inline-block;
@@ -1368,14 +1367,14 @@ a.button:hover {
   position: relative;
 }
 
-/* line 631, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
+/* line 630, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
 .btn-remove:hover,
 .btn-previous:hover {
   background-color: #3399CC;
   border-color: #3399CC;
 }
 
-/* line 638, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
+/* line 637, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
 .btn-remove:after {
   content: 'X';
   color: #3399CC;
@@ -1387,32 +1386,32 @@ a.button:hover {
   font-weight: bold;
 }
 
-/* line 648, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
+/* line 647, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
 .btn-remove:hover:after {
   color: #FFFFFF;
   text-decoration: none;
 }
 
-/* line 654, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
+/* line 653, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
 .btn-remove2 {
   background-position: 4px -648px;
   border: none;
   vertical-align: top;
 }
 
-/* line 661, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
+/* line 660, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
 .btn-remove2:after {
   display: none;
 }
 
-/* line 664, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
+/* line 663, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
 .btn-remove2:hover {
   background-color: transparent;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
   opacity: 0.8;
 }
 
-/* line 671, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
+/* line 670, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
 .btn-previous:after {
   content: '';
   position: absolute;
@@ -1430,7 +1429,7 @@ a.button:hover {
   margin-top: -4px;
 }
 
-/* line 679, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
+/* line 678, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
 .btn-previous:hover:after {
   content: '';
   position: absolute;
@@ -1443,7 +1442,7 @@ a.button:hover {
   border-left: none;
 }
 
-/* line 688, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
+/* line 687, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
 .block-layered-nav .currently .btn-remove,
 .block-layered-nav .currently .btn-previous,
 .mini-products-list .btn-remove,
@@ -1457,12 +1456,12 @@ a.button:hover {
 /* -------------------------------------------- *
  * Checkout Agreements
  */
-/* line 699, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
+/* line 698, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
 .checkout-agreements li {
   margin-bottom: 20px;
 }
 
-/* line 703, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
+/* line 702, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
 .checkout-agreements .agreement-content {
   overflow-y: auto;
   max-width: 670px;
@@ -1476,19 +1475,20 @@ a.button:hover {
 /* -------------------------------------------- *
  * CVV Security Code
  */
-/* line 717, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
+/* line 716, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
 .cvv-what-is-this {
   margin-left: 10px;
   font-size: 13px;
   line-height: 24px;
 }
 
-/* -------------------------------------------- *
+/* -------------------------------.block-title------------- *
  * Container
  */
-/* line 727, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
+/* line 726, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
 .page {
   background: #efefef;
+  overflow: hidden;
 }
 
 /* line 731, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/core/_common.scss */
@@ -3785,7 +3785,7 @@ body {
   float: left;
   width: 20%;
   height: 44px;
-  background: #FFFFFF;
+  background: #ffffff;
   color: #636363;
   line-height: 42px;
   text-align: center;
@@ -4633,6 +4633,42 @@ a.skip-link {
   font-size: 13px;
 }
 
+/* line 1, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/layout/_footer-before-container.scss */
+.footer-before-container {
+  display: flex;
+  flex-direction: column;
+}
+
+@media only screen and (min-width: 771px) {
+  /* line 7, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/layout/_footer-before-container.scss */
+  .footer-before-container {
+    flex-direction: row;
+    max-width: 1260px;
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
+  }
+  /* line 14, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/layout/_footer-before-container.scss */
+  .footer-before-container:before, .footer-before-container:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height: 100%;
+  }
+  /* line 24, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/layout/_footer-before-container.scss */
+  .footer-before-container:before {
+    background: #636363;
+    right: 50%;
+  }
+  /* line 29, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/layout/_footer-before-container.scss */
+  .footer-before-container:after {
+    background: #CF5050;
+    left: 50%;
+  }
+}
+
 /* ============================================ *
  * Footer
  * ============================================ */
@@ -4651,32 +4687,41 @@ a.skip-link {
   margin: 0 auto;
   padding: 20px 0;
   display: flex;
+  flex-direction: row;
   justify-content: center;
+  align-items: center;
   /* -------------------------------------------- *
      * Social icons
      */
 }
 
-@media only screen and (max-width: 479px) {
+@media only screen and (max-width: 770px) {
   /* line 39, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/layout/_footer.scss */
   .footer {
     padding-top: 15px;
+    flex-direction: column;
   }
 }
 
-/* line 50, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/layout/_footer.scss */
+@media only screen and (min-width: 771px) {
+  /* line 39, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/layout/_footer.scss */
+  .footer {
+    align-items: start;
+  }
+}
+
+/* line 57, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/layout/_footer.scss */
 .footer .block-title {
   display: none;
 }
 
-/* line 54, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/layout/_footer.scss */
+/* line 61, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/layout/_footer.scss */
 .footer .links {
   padding: 0 30px 0 60px;
-  border-right: 1px solid #CCCCCC;
   position: relative;
 }
 
-/* line 59, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/layout/_footer.scss */
+/* line 65, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/layout/_footer.scss */
 .footer .links:before {
   content: '';
   display: block;
@@ -4688,48 +4733,50 @@ a.skip-link {
   left: 10px;
 }
 
-/* line 70, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/layout/_footer.scss */
+/* line 76, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/layout/_footer.scss */
 .footer .links:last-child {
   border: none;
 }
 
-/* line 74, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/layout/_footer.scss */
+/* line 80, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/layout/_footer.scss */
 .footer .links li {
   word-break: break-all;
   line-height: 1.4;
   padding: 4px 0;
 }
 
-/* line 80, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/layout/_footer.scss */
+/* line 86, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/layout/_footer.scss */
 .footer .links a {
   color: #636363;
 }
 
-/* line 82, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/layout/_footer.scss */
+/* line 88, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/layout/_footer.scss */
 .footer .links a:hover {
   color: #3399CC;
 }
 
-/* line 88, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/layout/_footer.scss */
-.footer .block-subscribe {
-  float: right;
-  width: 320px;
-  margin-bottom: 30px;
+@media only screen and (min-width: 771px) {
+  /* line 61, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/layout/_footer.scss */
+  .footer .links {
+    border-right: 1px solid #CCCCCC;
+  }
 }
 
-/* line 94, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/layout/_footer.scss */
-.footer .links,
-.footer .block-subscribe {
+@media only screen and (max-width: 770px) {
+  /* line 61, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/layout/_footer.scss */
+  .footer .links {
+    width: 220px;
+    padding-bottom: 20px;
+  }
+}
+
+/* line 102, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/layout/_footer.scss */
+.footer .links {
   text-transform: uppercase;
   font-size: 12px;
 }
 
-/* line 100, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/layout/_footer.scss */
-.footer .form-subscribe-header {
-  display: none;
-}
-
-/* line 108, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/layout/_footer.scss */
+/* line 111, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/layout/_footer.scss */
 .footer .links.social-media em {
   background-image: url(../images/social_icons.png);
   background-repeat: no-repeat;
@@ -4740,181 +4787,77 @@ a.skip-link {
 }
 
 @media (-webkit-min-device-pixel-ratio: 2), (min--moz-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 4 / 2), (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
-  /* line 118, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/layout/_footer.scss */
+  /* line 121, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/layout/_footer.scss */
   .footer .links.social-media em {
     background-image: url(../images/social_icons@2x.png);
     background-size: 50px 125px;
   }
 }
 
-/* line 125, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/layout/_footer.scss */
+/* line 128, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/layout/_footer.scss */
 .footer .links.social-media em.facebook {
   background-position: 0 -0px;
   height: 13px;
 }
 
-/* line 130, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/layout/_footer.scss */
+/* line 133, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/layout/_footer.scss */
 .footer .links.social-media a:hover em.facebook {
   background-position: -25px -0px;
 }
 
-/* line 125, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/layout/_footer.scss */
+/* line 128, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/layout/_footer.scss */
 .footer .links.social-media em.twitter {
   background-position: 0 -24px;
   height: 13px;
 }
 
-/* line 130, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/layout/_footer.scss */
+/* line 133, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/layout/_footer.scss */
 .footer .links.social-media a:hover em.twitter {
   background-position: -25px -24px;
 }
 
-/* line 125, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/layout/_footer.scss */
+/* line 128, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/layout/_footer.scss */
 .footer .links.social-media em.youtube {
   background-position: 0 -49px;
   height: 13px;
 }
 
-/* line 130, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/layout/_footer.scss */
+/* line 133, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/layout/_footer.scss */
 .footer .links.social-media a:hover em.youtube {
   background-position: -25px -49px;
 }
 
-/* line 125, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/layout/_footer.scss */
+/* line 128, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/layout/_footer.scss */
 .footer .links.social-media em.pinterest {
   background-position: 0 -74px;
   height: 15px;
 }
 
-/* line 130, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/layout/_footer.scss */
+/* line 133, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/layout/_footer.scss */
 .footer .links.social-media a:hover em.pinterest {
   background-position: -25px -74px;
 }
 
-/* line 125, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/layout/_footer.scss */
+/* line 128, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/layout/_footer.scss */
 .footer .links.social-media em.rss {
   background-position: 0 -99px;
   height: 13px;
 }
 
-/* line 130, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/layout/_footer.scss */
+/* line 133, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/layout/_footer.scss */
 .footer .links.social-media a:hover em.rss {
   background-position: -25px -99px;
 }
 
-/* line 143, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/layout/_footer.scss */
-.footer .block-subscribe .input-box {
-  float: left;
-  width: 65.625%;
-  padding-top: 0;
-}
-
-/* line 149, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/layout/_footer.scss */
-.footer .block-subscribe .input-text {
-  width: 100%;
-  border-right: 0;
-  -webkit-border-radius: 0;
-  -moz-border-radius: 0;
-  -ms-border-radius: 0;
-  -o-border-radius: 0;
-  border-radius: 0;
-}
-
-/* line 155, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/layout/_footer.scss */
-.footer .block-subscribe .block-content {
-  padding-top: 7px;
-}
-
-/* line 158, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/layout/_footer.scss */
-.footer .block-subscribe .block-content:after {
-  content: '';
-  display: table;
-  clear: both;
-}
-
-/* line 163, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/layout/_footer.scss */
-.footer .block-subscribe .actions {
-  float: left;
-  width: 34.375%;
-  margin: 0;
-}
-
-/* line 169, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/layout/_footer.scss */
-.footer .block-subscribe .actions .button {
-  height: 30px;
-  line-height: 17px;
-  float: left;
-}
-
-/* line 175, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/layout/_footer.scss */
+/* line 146, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/layout/_footer.scss */
 .footer .bugs {
   clear: both;
   display: none;
 }
 
-/* line 180, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/layout/_footer.scss */
-.footer .form-language,
-.footer .currency-switcher,
-.footer .store-switcher {
-  clear: both;
-  margin-bottom: 10px;
-}
-
-/* line 187, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/layout/_footer.scss */
-.footer .form-language,
-.footer .currency-switcher {
-  display: none;
-}
-
-@media only screen and (max-width: 1199px) {
-  /* line 196, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/layout/_footer.scss */
-  .footer .links {
-    width: 22.65625%;
-    padding-right: 0;
-    margin-right: 3.125%;
-  }
-  /* line 202, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/layout/_footer.scss */
-  .footer .links:nth-child(4) {
-    margin-right: 0;
-  }
-  /* line 206, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/layout/_footer.scss */
-  .footer .block-subscribe {
-    clear: both;
-    float: none;
-    margin: 0 auto 30px auto;
-  }
-}
-
-@media only screen and (max-width: 770px) {
-  /* line 214, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/layout/_footer.scss */
-  .footer .form-language,
-  .footer .currency-switcher {
-    display: block;
-  }
-}
-
-@media only screen and (max-width: 599px) {
-  /* line 224, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/layout/_footer.scss */
-  .footer .links {
-    width: 48.4375%;
-    margin-right: 0;
-  }
-  /* line 229, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/layout/_footer.scss */
-  .footer .links:nth-child(odd) {
-    margin-right: 3.125%;
-    clear: both;
-  }
-  /* line 234, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/layout/_footer.scss */
-  .footer .block-subscribe {
-    clear: both;
-    float: left;
-    width: 100%;
-  }
-}
-
 /* line 1, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/layout/_footer-container.scss */
 .footer-container {
-  background-color: #fff;
+  background-color: #ffffff;
 }
 
 /* line 3, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/layout/_footer-container.scss */
@@ -4926,11 +4869,85 @@ a.skip-link {
 
 /* line 1, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/layout/_copyright.scss */
 address {
-  color: #fff;
-  background: #514f49;
+  color: #E6E6E6;
+  background: #636363;
   text-align: center;
   font-size: 11px;
   padding: 30px 0;
+}
+
+/* line 1, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/layout/_subscribe.scss */
+.subscribe {
+  width: 100%;
+  padding: 30px;
+  text-transform: uppercase;
+  font-size: 12px;
+  background: #636363;
+  z-index: 1;
+}
+
+/* line 9, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/layout/_subscribe.scss */
+.subscribe__title {
+  color: #E6E6E6;
+}
+
+/* line 13, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/layout/_subscribe.scss */
+.subscribe__field-group {
+  display: flex;
+  padding: 15px 0;
+  max-width: 300px;
+}
+
+/* line 18, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/layout/_subscribe.scss */
+.subscribe__field-group:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+/* line 23, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/layout/_subscribe.scss */
+.subscribe__label {
+  color: #E6E6E6;
+  text-transform: none;
+}
+
+/* line 28, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/layout/_subscribe.scss */
+.subscribe__input {
+  width: 270px;
+  padding-top: 0;
+  border-right: 0;
+  border: none;
+  border-radius: 0;
+}
+
+/* line 36, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/layout/_subscribe.scss */
+.subscribe__button {
+  width: 40px;
+  margin: 0;
+  height: 30px;
+  background: #ffffff url(data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTYuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjUxMnB4IiBoZWlnaHQ9IjUxMnB4IiB2aWV3Qm94PSIwIDAgMzA2IDMwNiIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMzA2IDMwNjsiIHhtbDpzcGFjZT0icHJlc2VydmUiPgo8Zz4KCTxnIGlkPSJjaGV2cm9uLXJpZ2h0Ij4KCQk8cG9seWdvbiBwb2ludHM9Ijk0LjM1LDAgNTguNjUsMzUuNyAxNzUuOTUsMTUzIDU4LjY1LDI3MC4zIDk0LjM1LDMwNiAyNDcuMzUsMTUzICAgIiBmaWxsPSIjMDAwMDAwIi8+Cgk8L2c+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPC9zdmc+Cg==) no-repeat center center;
+  background-size: 10px 10px;
+  border: none;
+  text-indent: -9999px;
+  flex-shrink: 0;
+}
+
+/* line 48, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/layout/_subscribe.scss */
+.subscribe .validation-advice {
+  position: absolute;
+  margin-top: 40px;
+}
+
+@media only screen and (min-width: 771px) {
+  /* line 54, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/layout/_subscribe.scss */
+  .subscribe {
+    width: 50%;
+    text-align: center;
+  }
+  /* line 58, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/layout/_subscribe.scss */
+  .subscribe__field-group {
+    margin: 0 auto;
+  }
 }
 
 /* ================================================= *
