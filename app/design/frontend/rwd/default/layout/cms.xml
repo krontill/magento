@@ -39,9 +39,6 @@ Default layout, loads most of the pages
                 -->
                 <action method="setBlockId"><block_id>footer_links_company</block_id></action>
             </block>
-        </reference>
-
-        <reference name="footer.before">
             <block type="cms/block" name="cms_footer_links_sm" after="footer_links2">
                 <!--
                     The content of this block is taken from the database by its block_id.

@@ -37,47 +37,34 @@
 }
 
 .footer {
-    max-width: $max-container-width;
-    margin: 0 auto;
-    padding: 20px 0;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    clear: both;
+    width: 100%;
+    border-top: 1px solid $c-module-border;
+    padding-top: $trim;
 
-    @include bp(max-width, $bp-medium) {
+    @include bp(max-width, $bp-xsmall) {
         padding-top: $trim-small;
-        flex-direction: column;
-    }
-
-    @include bp(min-width, $bp-medium + 1) {
-        align-items: start;
     }
 
     .block-title {
-        display: none;
+        border-bottom: 0;
+        padding: 3px 0;
+    }
+
+    .block-title strong {
+        font-weight: normal;
+    }
+
+    .block-title,
+    address {
+        color: $c-text-primary;
     }
 
     .links {
-        padding: 0 $trim 0 $trim * 2;
-        position: relative;
-        text-transform: uppercase;
-        font-size: $f-size-xs;
-
-        &:before {
-            content: '';
-            display: block;
-            width: 40px;
-            height: 40px;
-            background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjwhRE9DVFlQRSBzdmcgIFBVQkxJQyAnLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4nICAnaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkJz48c3ZnIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDUwIDUwIiBoZWlnaHQ9IjUwcHgiIGlkPSJMYXllcl8xIiB2ZXJzaW9uPSIxLjEiIHZpZXdCb3g9IjAgMCA1MCA1MCIgd2lkdGg9IjUwcHgiIHhtbDpzcGFjZT0icHJlc2VydmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxyZWN0IGZpbGw9Im5vbmUiIGhlaWdodD0iNTAiIHdpZHRoPSI1MCIvPjxwYXRoIGQ9Ik0zNC4zOTcsMjlMMjAsNDhMNS42MDQsMjkgIEgxNUMxNSwwLDQ0LDEsNDQsMVMyNSwyLjM3MywyNSwyOUgzNC4zOTd6IiBmaWxsPSJub25lIiBzdHJva2U9IiMwMDAwMDAiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiBzdHJva2Utd2lkdGg9IjIiLz48L3N2Zz4=) no-repeat;
-            background-size:  40px 40px;
-            position: absolute;
-            left: 10px;
-        }
-
-        &:last-child {
-            border: none;
-        }
+        float: left;
+        width: 17%;
+        padding: 0 $trim 0 0;
+        margin-bottom: $trim;
 
         li {
             word-break: break-all;
@@ -91,18 +78,171 @@
                 color: $c-action;
             }
         }
+    }
 
-        @include bp(min-width, $bp-medium + 1) {
-            border-right: 1px solid $c-module-border;
-        }
-        @include bp(max-width, $bp-medium) {
-            width: 220px;
-            padding-bottom: 20px;
+    .block-subscribe {
+        float: right;
+        width: 320px;
+        margin-bottom: $trim;
+    }
+
+    .links,
+    .block-subscribe {
+        text-transform: uppercase;
+        font-size: $f-size-xs;
+    }
+
+    .form-subscribe-header {
+        display: none;
+    }
+
+    /* -------------------------------------------- *
+     * Social icons
+     */
+
+    .links.social-media em {
+        background-image: url(../images/social_icons.png);
+        background-repeat: no-repeat;
+        width: 13px;
+        vertical-align: middle;
+        display: inline-block;
+        margin-right: 7px;
+    }
+
+    @include if-min-resolution(2) {
+        .links.social-media em {
+            background-image: url(../images/social_icons@2x.png);
+            background-size: 50px 125px;
         }
     }
 
-    .bugs {
+    @mixin footer-social-icon($class, $y, $height: 13) {
+        .links.social-media em.#{$class} {
+            background-position: 0 -#{$y}px;
+            height: #{$height}px;
+        }
+
+        .links.social-media a:hover em.#{$class} {
+            background-position: -25px -#{$y}px;
+        }
+    }
+
+    @include footer-social-icon(facebook, 0);
+    @include footer-social-icon(twitter, 24);
+    @include footer-social-icon(youtube, 49);
+    @include footer-social-icon(pinterest, 74, 15);
+    @include footer-social-icon(rss, 99);
+
+    // ---------------------------------------------
+
+    .block-subscribe .input-box {
+        float: left;
+        width: percentage(210px/320px);
+        padding-top: 0;
+    }
+
+    .block-subscribe .input-text {
+        width: 100%;
+        border-right: 0;
+        @include border-radius(0);
+    }
+
+    .block-subscribe .block-content {
+        padding-top: 7px;
+
+        &:after {
+            @include clearfix;
+        }
+    }
+
+    .block-subscribe .actions {
+        float: left;
+        width: percentage(110px/320px);
+        margin: 0;
+    }
+
+    .block-subscribe .actions .button {
+        height: 30px;
+        line-height: 17px;
+        float: left;
+    }
+
+    .bugs,
+    address {
         clear: both;
+    }
+
+    .bugs {
         display: none;
+    }
+
+    .form-language,
+    .currency-switcher,
+    .store-switcher {
+        clear: both;
+        margin-bottom: $gap;
+    }
+
+    .form-language,
+    .currency-switcher {
+        display: none;
+    }
+
+    address {
+        border-top: 1px solid $c-module-border;
+        text-align: center;
+        width: 100%;
+        font-size: $f-size-xxs;
+        margin-top: $trim;
+        padding: $trim 0;
+    }
+
+    @include bp(max-width, $bp-xlarge) {
+        $links-trim: percentage(30px / 960px);
+        $links-width: (100 - ($links-trim * 3)) / 4;
+
+        .links {
+            width: $links-width;
+            padding-right: 0;
+            margin-right: $links-trim;
+        }
+
+        .links:nth-child(4) {
+            margin-right: 0;
+        }
+
+        .block-subscribe {
+            clear: both;
+            float: none;
+            margin: 0 auto $trim auto;
+        }
+    }
+
+    @include bp(max-width, $bp-medium) {
+        .form-language,
+        .currency-switcher {
+            display: block;
+        }
+    }
+
+    @include bp(max-width, $bp-small) {
+        $links-trim: percentage(15px / 480px);
+        $links-width: (100 - $links-trim) / 2;
+
+        .links {
+            width: $links-width;
+            margin-right: 0;
+        }
+
+        .links:nth-child(odd) {
+            margin-right: $links-trim;
+            clear: both;
+        }
+
+        .block-subscribe {
+            clear: both;
+            float: left;
+            width: 100%;
+        }
     }
 }

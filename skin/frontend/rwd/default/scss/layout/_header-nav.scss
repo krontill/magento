@@ -86,7 +86,7 @@
 
     #header-nav {
         display: block; /* Force visibility */
-        margin-right: auto;
+        border-bottom: 1px solid $c-module-border-light;
     }
 
 }
@@ -200,7 +200,7 @@ $nav-primary-height: 30px;
     .nav-primary {
 
         a.level0 {
-            padding: 0 10px;
+            padding: 0 25px;
         }
 
         li.level0,
