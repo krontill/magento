@@ -4690,9 +4690,6 @@ a.skip-link {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  /* -------------------------------------------- *
-     * Social icons
-     */
 }
 
 @media only screen and (max-width: 770px) {
@@ -4719,9 +4716,11 @@ a.skip-link {
 .footer .links {
   padding: 0 30px 0 60px;
   position: relative;
+  text-transform: uppercase;
+  font-size: 12px;
 }
 
-/* line 65, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/layout/_footer.scss */
+/* line 67, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/layout/_footer.scss */
 .footer .links:before {
   content: '';
   display: block;
@@ -4733,24 +4732,24 @@ a.skip-link {
   left: 10px;
 }
 
-/* line 76, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/layout/_footer.scss */
+/* line 78, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/layout/_footer.scss */
 .footer .links:last-child {
   border: none;
 }
 
-/* line 80, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/layout/_footer.scss */
+/* line 82, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/layout/_footer.scss */
 .footer .links li {
   word-break: break-all;
   line-height: 1.4;
   padding: 4px 0;
 }
 
-/* line 86, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/layout/_footer.scss */
+/* line 88, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/layout/_footer.scss */
 .footer .links a {
   color: #636363;
 }
 
-/* line 88, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/layout/_footer.scss */
+/* line 90, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/layout/_footer.scss */
 .footer .links a:hover {
   color: #3399CC;
 }
@@ -4770,86 +4769,7 @@ a.skip-link {
   }
 }
 
-/* line 102, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/layout/_footer.scss */
-.footer .links {
-  text-transform: uppercase;
-  font-size: 12px;
-}
-
-/* line 111, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/layout/_footer.scss */
-.footer .links.social-media em {
-  background-image: url(../images/social_icons.png);
-  background-repeat: no-repeat;
-  width: 13px;
-  vertical-align: middle;
-  display: inline-block;
-  margin-right: 7px;
-}
-
-@media (-webkit-min-device-pixel-ratio: 2), (min--moz-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 4 / 2), (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
-  /* line 121, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/layout/_footer.scss */
-  .footer .links.social-media em {
-    background-image: url(../images/social_icons@2x.png);
-    background-size: 50px 125px;
-  }
-}
-
-/* line 128, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/layout/_footer.scss */
-.footer .links.social-media em.facebook {
-  background-position: 0 -0px;
-  height: 13px;
-}
-
-/* line 133, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/layout/_footer.scss */
-.footer .links.social-media a:hover em.facebook {
-  background-position: -25px -0px;
-}
-
-/* line 128, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/layout/_footer.scss */
-.footer .links.social-media em.twitter {
-  background-position: 0 -24px;
-  height: 13px;
-}
-
-/* line 133, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/layout/_footer.scss */
-.footer .links.social-media a:hover em.twitter {
-  background-position: -25px -24px;
-}
-
-/* line 128, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/layout/_footer.scss */
-.footer .links.social-media em.youtube {
-  background-position: 0 -49px;
-  height: 13px;
-}
-
-/* line 133, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/layout/_footer.scss */
-.footer .links.social-media a:hover em.youtube {
-  background-position: -25px -49px;
-}
-
-/* line 128, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/layout/_footer.scss */
-.footer .links.social-media em.pinterest {
-  background-position: 0 -74px;
-  height: 15px;
-}
-
-/* line 133, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/layout/_footer.scss */
-.footer .links.social-media a:hover em.pinterest {
-  background-position: -25px -74px;
-}
-
-/* line 128, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/layout/_footer.scss */
-.footer .links.social-media em.rss {
-  background-position: 0 -99px;
-  height: 13px;
-}
-
-/* line 133, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/layout/_footer.scss */
-.footer .links.social-media a:hover em.rss {
-  background-position: -25px -99px;
-}
-
-/* line 146, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/layout/_footer.scss */
+/* line 104, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/layout/_footer.scss */
 .footer .bugs {
   clear: both;
   display: none;
@@ -4947,6 +4867,119 @@ address {
   /* line 58, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/layout/_subscribe.scss */
   .subscribe__field-group {
     margin: 0 auto;
+  }
+}
+
+/* line 1, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/layout/_social-media.scss */
+.social-media {
+  width: 100%;
+  z-index: 1;
+  background: #CF5050;
+  text-align: center;
+  padding: 30px;
+}
+
+/* line 8, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/layout/_social-media.scss */
+.social-media .block-title {
+  max-width: 300px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+/* line 13, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/layout/_social-media.scss */
+.social-media .block-title strong {
+  color: #E6E6E6;
+}
+
+/* line 18, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/layout/_social-media.scss */
+.social-media ul {
+  padding: 15px 0;
+  display: inline-flex;
+}
+
+/* line 22, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/layout/_social-media.scss */
+.social-media ul a {
+  text-indent: -9999px;
+  display: inline-flex;
+}
+
+/* line 29, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/layout/_social-media.scss */
+.social-media em {
+  background-image: url(../images/social_icons.png);
+  background-repeat: no-repeat;
+  width: 13px;
+  vertical-align: middle;
+  display: inline-block;
+  margin-right: 7px;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min--moz-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 4 / 2), (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  /* line 39, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/layout/_social-media.scss */
+  .links.social-media em {
+    background-image: url(../images/social_icons@2x.png);
+    background-size: 50px 125px;
+  }
+}
+
+/* line 46, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/layout/_social-media.scss */
+.links.social-media em.facebook {
+  background-position: 0 -0px;
+  height: 13px;
+}
+
+/* line 51, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/layout/_social-media.scss */
+.links.social-media a:hover em.facebook {
+  background-position: -25px -0px;
+}
+
+/* line 46, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/layout/_social-media.scss */
+.links.social-media em.twitter {
+  background-position: 0 -24px;
+  height: 13px;
+}
+
+/* line 51, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/layout/_social-media.scss */
+.links.social-media a:hover em.twitter {
+  background-position: -25px -24px;
+}
+
+/* line 46, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/layout/_social-media.scss */
+.links.social-media em.youtube {
+  background-position: 0 -49px;
+  height: 13px;
+}
+
+/* line 51, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/layout/_social-media.scss */
+.links.social-media a:hover em.youtube {
+  background-position: -25px -49px;
+}
+
+/* line 46, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/layout/_social-media.scss */
+.links.social-media em.pinterest {
+  background-position: 0 -74px;
+  height: 15px;
+}
+
+/* line 51, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/layout/_social-media.scss */
+.links.social-media a:hover em.pinterest {
+  background-position: -25px -74px;
+}
+
+/* line 46, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/layout/_social-media.scss */
+.links.social-media em.rss {
+  background-position: 0 -99px;
+  height: 13px;
+}
+
+/* line 51, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/layout/_social-media.scss */
+.links.social-media a:hover em.rss {
+  background-position: -25px -99px;
+}
+
+@media only screen and (min-width: 771px) {
+  /* line 63, /opt/lampp/htdocs/magento/skin/frontend/rwd/default/scss/layout/_social-media.scss */
+  .social-media {
+    width: 50%;
   }
 }
 

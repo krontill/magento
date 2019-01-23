@@ -61,6 +61,8 @@
     .links {
         padding: 0 $trim 0 $trim * 2;
         position: relative;
+        text-transform: uppercase;
+        font-size: $f-size-xs;
 
         &:before {
             content: '';
@@ -98,50 +100,6 @@
             padding-bottom: 20px;
         }
     }
-
-    .links {
-        text-transform: uppercase;
-        font-size: $f-size-xs;
-    }
-
-    /* -------------------------------------------- *
-     * Social icons
-     */
-
-    .links.social-media em {
-        background-image: url(../images/social_icons.png);
-        background-repeat: no-repeat;
-        width: 13px;
-        vertical-align: middle;
-        display: inline-block;
-        margin-right: 7px;
-    }
-
-    @include if-min-resolution(2) {
-        .links.social-media em {
-            background-image: url(../images/social_icons@2x.png);
-            background-size: 50px 125px;
-        }
-    }
-
-    @mixin footer-social-icon($class, $y, $height: 13) {
-        .links.social-media em.#{$class} {
-            background-position: 0 -#{$y}px;
-            height: #{$height}px;
-        }
-
-        .links.social-media a:hover em.#{$class} {
-            background-position: -25px -#{$y}px;
-        }
-    }
-
-    @include footer-social-icon(facebook, 0);
-    @include footer-social-icon(twitter, 24);
-    @include footer-social-icon(youtube, 49);
-    @include footer-social-icon(pinterest, 74, 15);
-    @include footer-social-icon(rss, 99);
-
-    // ---------------------------------------------
 
     .bugs {
         clear: both;
