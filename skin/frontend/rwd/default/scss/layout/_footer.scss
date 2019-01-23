@@ -41,10 +41,17 @@
     margin: 0 auto;
     padding: 20px 0;
     display: flex;
+    flex-direction: row;
     justify-content: center;
+    align-items: center;
 
-    @include bp(max-width, $bp-xsmall) {
+    @include bp(max-width, $bp-medium) {
         padding-top: $trim-small;
+        flex-direction: column;
+    }
+
+    @include bp(min-width, $bp-medium + 1) {
+        align-items: start;
     }
 
     .block-title {
@@ -53,7 +60,6 @@
 
     .links {
         padding: 0 $trim 0 $trim * 2;
-        border-right: 1px solid $c-module-border;
         position: relative;
 
         &:before {
@@ -82,6 +88,14 @@
             &:hover {
                 color: $c-action;
             }
+        }
+
+        @include bp(min-width, $bp-medium + 1) {
+            border-right: 1px solid $c-module-border;
+        }
+        @include bp(max-width, $bp-medium) {
+            width: 220px;
+            padding-bottom: 20px;
         }
     }
 
@@ -175,66 +189,5 @@
     .bugs {
         clear: both;
         display: none;
-    }
-
-    .form-language,
-    .currency-switcher,
-    .store-switcher {
-        clear: both;
-        margin-bottom: $gap;
-    }
-
-    .form-language,
-    .currency-switcher {
-        display: none;
-    }
-
-    @include bp(max-width, $bp-xlarge) {
-        $links-trim: percentage(30px / 960px);
-        $links-width: (100 - ($links-trim * 3)) / 4;
-
-        .links {
-            width: $links-width;
-            padding-right: 0;
-            margin-right: $links-trim;
-        }
-
-        .links:nth-child(4) {
-            margin-right: 0;
-        }
-
-        .block-subscribe {
-            clear: both;
-            float: none;
-            margin: 0 auto $trim auto;
-        }
-    }
-
-    @include bp(max-width, $bp-medium) {
-        .form-language,
-        .currency-switcher {
-            display: block;
-        }
-    }
-
-    @include bp(max-width, $bp-small) {
-        $links-trim: percentage(15px / 480px);
-        $links-width: (100 - $links-trim) / 2;
-
-        .links {
-            width: $links-width;
-            margin-right: 0;
-        }
-
-        .links:nth-child(odd) {
-            margin-right: $links-trim;
-            clear: both;
-        }
-
-        .block-subscribe {
-            clear: both;
-            float: left;
-            width: 100%;
-        }
     }
 }
